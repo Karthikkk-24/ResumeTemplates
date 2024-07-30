@@ -1,30 +1,26 @@
 export default function Skills() {
     return (
         <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">SKILLS SUMMARY</h2>
-            <ul className="list-disc pl-5">
-                <li>
-                    <span className="font-semibold">Languages:</span> Python,
-                    SQL, JAVA
-                </li>
-                <li>
-                    <span className="font-semibold">Frameworks:</span> Pandas,
-                    Numpy, Scikit-Learn, Matplotlib
-                </li>
-                <li>
-                    <span className="font-semibold">Tools:</span> Power BI,
-                    Excel, PowerPoint, Tableau, MySQL, SQLite
-                </li>
-                <li>
-                    <span className="font-semibold">Platforms:</span> PyCharm,
-                    Jupyter Notebook, Visual Studio Code, IntelliJ IDEA
-                </li>
-                <li>
-                    <span className="font-semibold">Soft Skills:</span> Rapport
-                    Building, Strong Stakeholder management, People Management,
-                    Excellent communication
-                </li>
-            </ul>
+            <h2 className="text-2xl font-semibold mb-2">SKILLS</h2>
+            <h3 className="font-semibold">Programming</h3>
+            <p>
+                React JS • JavaScript • NodeJS • ExpressJS • MongoDB • PHP •
+                HTML • CSS • Python • Java • MySQL • Tailwind • Bootstrap • Mac
+                OS • Linux • Windows
+            </p>
+
+            <h3 className="font-semibold mt-4">Graduate Coursework</h3>
+            <p>
+                Web Programming • Advanced Python • Core & Advanced Java •
+                Ethical Hacking • Information Retrieval • Cloud Computing •
+                Computer Networks
+            </p>
+
+            <h3 className="font-semibold mt-4">Hobbies</h3>
+            <p>
+                Weight-Lifting | Listening Songs | Problem Solving | Programming
+                | Blog Writing | Virtual Gaming | Archery | Netball | Chess
+            </p>
         </section>
     );
 }

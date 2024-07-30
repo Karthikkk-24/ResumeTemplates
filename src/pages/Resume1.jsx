@@ -1,4 +1,4 @@
-import Certificates from "../components/resume1/Certificates";
+import Achievements from "../components/resume1/Achievements";
 import Education from "../components/resume1/Education";
 import Header from "../components/resume1/Header";
 import Projects from "../components/resume1/Projects";
@@ -14,7 +14,7 @@ export default function Resume1() {
                 <Skills />
                 <WorkExperience />
                 <Projects />
-                <Certificates />
+                <Achievements />
             </div>
         </div>
     );

@@ -1,39 +1,66 @@
-
 export default function WorkExperience() {
     return (
         <section className="mb-6">
-            <h2 className="text-2xl font-semibold mb-2">WORK EXPERIENCE</h2>
-            <div>
+            <h2 className="text-2xl font-semibold mb-2">EXPERIENCE</h2>
+            <div className="mb-4">
                 <h3 className="font-semibold">
-                    Business Analyst Intern | WS | LINK
+                    RUDRATECH IT SERVICES | Software Developer | Full-Time
                 </h3>
-                <p className="text-sm text-gray-600">January 24 - March 24</p>
+                <p className="text-sm text-gray-600">
+                    November 2022 - July 2024 | Ambarnath, Maharashtra
+                </p>
                 <ul className="list-disc pl-5 mt-2">
                     <li>
-                        Streamlined data collection and reporting procedures,
-                        reducing processing time by 20% enhancing efficiency.
+                        Led backend development for betting and gambling games,
+                        improving platform performance and scalability.
                     </li>
                     <li>
-                        Implemented process improvements and automation
-                        solutions, resulting in 15% increase in productivity.
+                        Built and optimized APIs in Node.js, PHP, and Express.js
+                        for seamless integration and real-time data processing.
                     </li>
                     <li>
-                        Collaborated with 3+ cross-functional teams to gather
-                        requirements, define project scopes, and ensure
-                        alignment with business objectives, fostering effective
-                        teamwork and project success.
+                        Developed user and admin management systems, ticketing
+                        systems, and custom reporting tools.
+                    </li>
+                </ul>
+            </div>
+            <div className="mb-4">
+                <h3 className="font-semibold">
+                    NEXA SOFTWARE | Software Developer | Full-Time
+                </h3>
+                <p className="text-sm text-gray-600">
+                    February 2022 - August 2022 | Pune, Maharashtra
+                </p>
+                <ul className="list-disc pl-5 mt-2">
+                    <li>
+                        Enhanced customer interaction by developing a backend
+                        system for feedback and administration.
                     </li>
                     <li>
-                        Produced 15+ comprehensive reports and presentations
-                        summarizing findings and recommendations, facilitating
-                        clear communication with stakeholders and driving
-                        actionable outcomes.
+                        Redesigned user interfaces to boost engagement and
+                        usability.
                     </li>
                     <li>
-                        Conducted in-depth market research and analysis,
-                        resulting in the identification of 10+ key trends and
-                        insights that informed strategic decision-making
-                        processes.
+                        Implemented updates on live WordPress websites,
+                        increasing functionality.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 className="font-semibold">
+                    DEVTOWN | Cybersecurity | Internship
+                </h3>
+                <p className="text-sm text-gray-600">
+                    September 2021 – Dec 2021 | Remote, Badlapur
+                </p>
+                <ul className="list-disc pl-5 mt-2">
+                    <li>
+                        Analyzed and mitigated vulnerabilities on AWS, web, and
+                        desktop applications.
+                    </li>
+                    <li>
+                        Received a Letter of Recommendation for critical
+                        thinking and application of cybersecurity knowledge.
                     </li>
                 </ul>
             </div>
