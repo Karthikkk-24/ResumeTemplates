@@ -1,9 +1,10 @@
-import Achievements from "../components/resume1/Achievements";
-import Education from "../components/resume1/Education";
-import Header from "../components/resume1/Header";
-import Projects from "../components/resume1/Projects";
-import Skills from "../components/resume1/Skills";
-import WorkExperience from "../components/resume1/WorkExperience";
+import DownloadButton from '../components/Download';
+import Achievements from '../components/resume1/Achievements';
+import Education from '../components/resume1/Education';
+import Header from '../components/resume1/Header';
+import Projects from '../components/resume1/Projects';
+import Skills from '../components/resume1/Skills';
+import WorkExperience from '../components/resume1/WorkExperience';
 
 export default function Resume1() {
     return (
@@ -16,6 +17,7 @@ export default function Resume1() {
                 <Projects />
                 <Achievements />
             </div>
+            <DownloadButton />
         </div>
     );
 }
