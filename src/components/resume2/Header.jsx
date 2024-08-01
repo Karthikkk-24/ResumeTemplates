@@ -2,7 +2,7 @@ export default function Header() {
     return (
         <header className="w-full h-auto flex items-center justify-between">
             <div className="w-auto h-full flex flex-col items-start justify-start">
-                <h2>Karthik Shettigar</h2>
+                <h2 className="font-bold text-2xl uppercase">Karthik Shettigar</h2>
                 <a href="https://linkedin.com/in/kks24">
                     Karthik Shettigar | LinkedIn
                 </a>
