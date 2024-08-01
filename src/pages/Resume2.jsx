@@ -8,7 +8,7 @@ import Summary from '../components/resume2/Summary';
 
 export default function Resume2() {
     return (
-        <div>
+        <div id='resume-container'>
             <Header />
             <Summary />
             <Experience />

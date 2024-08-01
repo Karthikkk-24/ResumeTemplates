@@ -5,13 +5,19 @@ export default function DownloadButton() {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleDownload = () => {
-        const element = document.body; // or document.getElementById('resume') if you have a specific container
+        const element = document.getElementById('resume-container');
         const opt = {
-            margin: 10,
+            margin: [10, 10, 10, 10],
             filename: 'Karthik_Shettigar_Resume.pdf',
             image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2 },
+            html2canvas: { 
+                scale: 2, 
+                logging: true, 
+                dpi: 192,
+                letterRendering: true
+            },
             jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+            pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
         };
 
         html2pdf().set(opt).from(element).save();
