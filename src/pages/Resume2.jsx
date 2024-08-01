@@ -12,10 +12,10 @@ export default function Resume2() {
             <div className="w-3/5 h-auto flex flex-col items-center justify-center bg-white p-3 shadow-xl gap-2">
                 <Header />
                 <Education />
+                <Skills />
                 <Summary />
                 <Experience />
                 <Projects />
-                <Skills />
                 <DownloadButton />
             </div>
         </div>

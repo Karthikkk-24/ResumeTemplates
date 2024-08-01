@@ -1,7 +1,9 @@
 export default function Skills() {
     return (
-        <section>
-            <h2 className="text-2xl font-semibold mb-2">Skills</h2>
+        <section className="w-full">
+            <h2 className="text-2xl w-full text-center uppercase font-semibold mb-2">
+                Skills
+            </h2>
             <ul className="list-disc list-inside">
                 <li>
                     <strong>Front End:</strong> HTML, CSS, JavaScript, React JS
